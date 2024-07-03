@@ -1,0 +1,32 @@
+.foot{
+    background-color: pink;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+}
+
+.foot_content {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    height: 60px;
+    padding: 0 20px;
+    color: white;
+    background-color: #333;
+    align-items: center;
+
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 0;
+    
+  }
+  
+  .icon {
+    font-size: 24px;
+    color: white;
+  }

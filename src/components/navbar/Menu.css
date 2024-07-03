@@ -1,0 +1,36 @@
+.menu {
+    position: relative;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+.menu-items {
+    display: flex;
+    gap: 80px;
+}
+
+@media (max-width: 650px) {
+    .menu-icon {
+        display: block;
+    }
+
+    .menu-items {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        gap: 5px;
+        top: 40px;
+        right: 0;
+        background-color: rgb(46, 46, 46);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 150px;
+    }
+
+    .menu-items.open {
+        display: flex;
+        padding: 10px
+    }
+}
