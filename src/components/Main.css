@@ -7,7 +7,7 @@
     margin: auto;
     margin-top: var(--bar-height) ;
     align-items: center;
-    max-width: 1200px;
+    max-width: var(--max-width);
     padding: 20px;
     color: white;
     background-color: var(--main-color);
