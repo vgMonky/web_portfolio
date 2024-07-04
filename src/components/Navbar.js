@@ -1,5 +1,5 @@
 import React from 'react';
-import Menu from './Menu';
+import Menu from './navbar/Menu';
 import './Navbar.css';
 
 const Navbar = ({ setMainState }) => {

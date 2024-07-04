@@ -1,8 +1,9 @@
 // src/App.js
+import './var.css';
 import React, { useState } from 'react';
-import Navbar from './components/navbar/Navbar';
-import Main from './components/main/Main';
-import Foot from './components/foot/Foot'
+import Navbar from './components/Navbar';
+import Main from './components/Main';
+import Foot from './components/Foot'
 
 
 const App = () => {

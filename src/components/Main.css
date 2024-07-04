@@ -1,0 +1,15 @@
+.main{
+    background-color: var(--main-side-color);
+    overflow-y: auto;
+}
+
+.main_content {
+    margin: auto;
+    margin-top: var(--bar-height) ;
+    align-items: center;
+    max-width: 1200px;
+    padding: 20px;
+    color: white;
+    background-color: var(--main-color);
+    min-height: calc(100vh - calc(var(--bar-height)*2));
+}

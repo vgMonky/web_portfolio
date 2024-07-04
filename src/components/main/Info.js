@@ -1,11 +1,13 @@
 import React from 'react';
-import './Info.css';
+import './main_child.css';
 
 const Info = () => {
   return (
     <div className="info">
-      <h2>Information</h2>
-      <p>This is the information section.</p>
+        <div className='card'>
+            <h2>Information</h2>
+            <p>This is the information section.</p>
+        </div>
     </div>
   );
 };

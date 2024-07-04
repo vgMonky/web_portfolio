@@ -1,9 +1,9 @@
 .foot{
-    background-color: pink;
+    background-color: var(--foot-side-color);
     width: 100%;
     position: fixed;
     bottom: 0;
-    height: 60px;
+    height: var(--bar-height);
 }
 
 .foot_content {
@@ -11,16 +11,17 @@
     display: flex;
     justify-content: center;
     max-width: 1200px;
-    height: 60px;
+    height: var(--bar-height);
     padding: 0 20px;
     color: white;
-    background-color: #333;
+    background-color: var(--foot-color);
     align-items: center;
 
   }
   
   .social-icons {
     display: flex;
+    justify-content: center;
     gap: 20px;
     padding-bottom: 0;
     
@@ -28,5 +29,11 @@
   
   .icon {
     font-size: 24px;
+    color: gray;
+    transition: 0.5s;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  .icon:hover {
     color: white;
   }

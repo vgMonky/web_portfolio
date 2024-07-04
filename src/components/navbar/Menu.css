@@ -9,7 +9,7 @@
 
 .menu-items {
     display: flex;
-    gap: 80px;
+    gap: 40px;
 }
 
 @media (max-width: 650px) {

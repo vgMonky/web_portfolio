@@ -1,0 +1,13 @@
+:root {
+    --navbar-side-color: #151515;
+    --navbar-color: #333;
+    
+    --main-side-color: #151515;
+    --main-color: gray;
+
+    --foot-side-color: #151515;
+    --foot-color: #333;
+
+    --bar-height: 60px;
+
+}

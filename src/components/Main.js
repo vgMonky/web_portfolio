@@ -1,7 +1,7 @@
 import React from 'react';
-import Intro from './Intro';
-import Projects from './Projects';
-import Info from './Info';
+import Intro from './main/Intro';
+import Projects from './main/Projects';
+import Info from './main/Info';
 import './Main.css';
 
 const Main = ({ mainState }) => {
