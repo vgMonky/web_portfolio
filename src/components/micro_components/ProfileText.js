@@ -10,11 +10,13 @@ const ProfileText = () => {
             Front-end Developer & Designer with 4 years of experience creating digital products such as web-applications, branding manuals and more.
         </p>
         <p className='description'> 
-            I strive to constantly keep learning about technology to expand my capabilities as a digital creator and artist.</p>
+            I strive to constantly keep learning about technology to expand my capabilities as a digital creator.</p>
         <div className='buttons_container'>
             <div className='button'>Click Me</div>
             <div className='hover'>More Projects</div>
         </div>
+
+        
     </div>
   );
 };
