@@ -7,7 +7,7 @@ import './Main.css';
 const Main = ({ mainState }) => {
   return (
     <div className="main">
-        <div className='main_content'>
+        <div className='main-content'>
             {mainState === 'intro' && <Intro />}
             {mainState === 'projects' && <Projects />}
             {mainState === 'info' && <Info />}

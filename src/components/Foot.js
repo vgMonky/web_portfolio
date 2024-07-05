@@ -5,19 +5,19 @@ import './Foot.css';
 const Foot = () => {
   return (
     <footer className="foot">
-        <div className='foot_content'>
+        <div className='foot-content'>
             <div className="social-icons">
                 <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
-                <FaLinkedin className="icon" />
+                <FaLinkedin className="icon hover" />
                 </a>
                 <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer">
-                <FaGithub className="icon" />
+                <FaGithub className="icon hover" />
                 </a>
                 <a href="https://www.behance.net/yourprofile" target="_blank" rel="noopener noreferrer">
-                <FaBehance className="icon" />
+                <FaBehance className="icon hover" />
                 </a>
                 <a href="mailto:your.email@example.com">
-                <FaEnvelope className="icon" />
+                <FaEnvelope className="icon hover" />
                 </a>
             </div>
         </div>

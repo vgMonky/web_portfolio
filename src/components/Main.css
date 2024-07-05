@@ -1,14 +1,15 @@
 .main{
     background-color: var(--main-side-color);
     overflow-y: auto;
+    border: 1px solid red;
 }
 
-.main_content {
+.main-content {
     margin: auto;
     margin-top: var(--bar-height) ;
     align-items: center;
     max-width: var(--max-width);
-    padding: 20px;
+    padding: 20px var(--side-margin);
     color: white;
     background-color: var(--main-color);
     min-height: calc(100vh - calc(var(--bar-height)*2));

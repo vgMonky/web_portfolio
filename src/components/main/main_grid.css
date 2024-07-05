@@ -1,0 +1,55 @@
+.main-container {
+    min-height: 600px ;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.row {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.m1 {
+    border: 1px solid red;
+    width: 10%;
+}
+.m2 {
+    border: 1px solid red;
+    width: 20%;
+}
+.m3 {
+    border: 1px solid red;
+    width: 30%;
+}
+.m4 {
+    border: 1px solid red;
+    width: 40%;
+}
+.m5 {
+    border: 1px solid red;
+    width: 50%;
+}
+.m6 {
+    border: 1px solid red;
+    width: 60%;
+}
+.m7 {
+    border: 1px solid red;
+    width: 70%;
+}
+.m8 {
+    border: 1px solid red;
+    width: 80%;
+}
+.m9 {
+    border: 1px solid red;
+    width: 90%;
+}
+.m10 {
+    border: 1px solid red;
+    width: 100%;
+}
+

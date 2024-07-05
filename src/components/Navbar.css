@@ -4,16 +4,17 @@
     width: 100%;
     position: fixed;
     height: var(--bar-height);
+    border: 1px solid red;
 }
 
-.navbar_content {
+.navbar-content {
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: var(--max-width);
     height: var(--bar-height);
-    padding: 0 20px;
+    padding: 0 var(--side-margin);
     color: white;
     background-color: var(--navbar-color)
 }
@@ -21,6 +22,7 @@
 .logo {
     display: flex;
     align-items: center;
+    border: 1px solid red;
 }
 
 .logo img {

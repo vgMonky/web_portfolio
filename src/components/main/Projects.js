@@ -1,5 +1,5 @@
 import React from 'react';
-import './main_child.css'
+import './main_grid.css'
 
 const Projects = () => {
   return (
