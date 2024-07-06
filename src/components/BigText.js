@@ -1,11 +1,11 @@
 import React from 'react';
 import './BigText.css';
 
-const BigText = () => {
+const BigText = ({text}) => {
 
   return (
     <div className="big_text">
-        <div className='text'>FRONT END DESIGNER.</div>
+        <div className='text'>{text}</div>
     </div>
   );
 };

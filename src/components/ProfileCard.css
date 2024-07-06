@@ -1,4 +1,4 @@
-.profile_text {
+.profile_card {
     width: 100%;
     min-height: 100%;
     display: flex;
@@ -17,4 +17,8 @@
     align-items: center;
     gap: 10px;
     margin-top: 20px;
+}
+
+.profile_card .description {
+    color:#888;
 }

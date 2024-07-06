@@ -1,22 +1,21 @@
 // src/App.js
 import './var.css';
-import React, { useState } from 'react';
-import Navbar from './components/Navbar';
-import Main from './components/Main';
-import Foot from './components/Foot'
-
+import React from 'react';
+import Navbar from './layouts/Navbar';
+import Main from './layouts/Main';
+import Foot from './layouts/Foot';
+import { AppProvider } from './AppContext';
 
 const App = () => {
-  const [mainState, setMainState] = useState('intro');
-
   return (
-    <div className="app">
-      <Navbar setMainState={setMainState} />
-      <Main mainState={mainState} />
-      <Foot />
-    </div>
+    <AppProvider>
+      <div className="app">
+        <Navbar />
+        <Main />
+        <Foot />
+      </div>
+    </AppProvider>
   );
 };
 
 export default App;
-

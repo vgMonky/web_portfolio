@@ -1,11 +1,9 @@
 import React from 'react';
 import './main_grid.css';
-import BigText from '../micro_components/BigText';
-import ProfileImg from '../micro_components/ProfileImg';
-import ProfileText from '../micro_components/ProfileText';
 
 
-const Info = () => {
+
+const M3 = () => {
   return (
     <div className="main-container">
       <div className='row'>
@@ -23,4 +21,4 @@ const Info = () => {
   );
 };
 
-export default Info;
+export default M3;

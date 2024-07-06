@@ -1,7 +1,7 @@
 import React from 'react';
 import './main_grid.css'
 
-const Projects = () => {
+const M2 = () => {
   return (
     <div className="projects">
         <div className='card'>
@@ -12,4 +12,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default M2;

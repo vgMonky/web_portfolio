@@ -1,0 +1,18 @@
+.expand {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    
+    /* Glass effect */
+    background-color: #55555598; /* Reduced opacity */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    
+    /* Optional: add a subtle border and box-shadow for depth */
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(99, 99, 99, 0.37);
+  }
