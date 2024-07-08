@@ -4,6 +4,7 @@ import BigText from '../../components/BigText';
 import ProfileImg from '../../components/ProfileImg';
 import ProfileCard from '../../components/ProfileCard';
 import Expand from '../../components/Expand';
+import profile_img from '../../assets/profile.jpg';
 
 const M1 = () => {
   return (
@@ -14,7 +15,7 @@ const M1 = () => {
       </div>
 
       <div className='row'>
-        <div className='m3'><ProfileImg src={'http://studiogou.co/gou_images/bw.jpg'} /></div>
+        <div className='m3'><ProfileImg src={profile_img} /></div>
         <div className='m7'>
           <ProfileCard
             title="Victor Goudschaal"
@@ -27,7 +28,10 @@ const M1 = () => {
       </div>
 
       <div className='row'>
-        <div className='m10'><Expand subtitle="What is Front End Design?"/></div>
+        <div className='m10'><Expand
+          subtitle="What is Front End Design?"
+          description="ddasdasdasdasd"
+          /></div>
       </div>
       <div className='row'>
         <div className='m10'><Expand subtitle="Why you need a Front End Designer?" /></div>
