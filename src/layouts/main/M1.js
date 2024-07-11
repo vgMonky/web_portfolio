@@ -29,13 +29,21 @@ const M1 = () => {
 
       <div className='row'>
         <div className='m10'><Expand
-          subtitle="What is Front End Design?"
-          description="ddasdasdasdasd"
-          /></div>
+          subtitle="Who is a Front End Designer?"
+          description="Front-end designers combine the key components of both jobs living between the world of communication and engineering:
+          >>they understand the UX principles
+          >>they have an eye for aesthetics
+          >>they can write HTML, CSS & JavaScript.
+          >>they understand the possibilities of frontend development"
+        /></div>
       </div>
+
       <div className='row'>
-        <div className='m10'><Expand subtitle="Why you need a Front End Designer?" /></div>
+        <div className='m10'><Expand
+          subtitle="Why you need a Front End Designer?" 
+        /></div>
       </div>
+      
       <div className='row'>
         <div className='m10'><Expand subtitle="How does a Front End Designer develop?"/></div>
       </div>

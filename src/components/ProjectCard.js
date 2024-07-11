@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './ProjectCard.css';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
-// Image imports
-import coverImage from '../assets/projects/futurama/cover.jpg';
 
-const ProjectCard = () => {
+const ProjectCard = ({ path }) => {
   const [name, setName] = useState('');
   const [type, setType] = useState('');
   const [showContent, setShowContent] = useState(false);
@@ -13,7 +11,7 @@ const ProjectCard = () => {
 
   useEffect(() => {
     // Fetch info text
-    fetch(require('../assets/projects/futurama/info.txt'))
+    fetch(`/src/assets/${path}/info.txt`)
       .then(response => response.text())
       .then(text => {
         const lines = text.split('\n');
@@ -24,11 +22,20 @@ const ProjectCard = () => {
       })
       .catch(error => console.error('Error fetching the info:', error));
 
-    // Load all content images
-    const importAll = (r) => r.keys().map(r);
-    const images = importAll(require.context('../assets/projects/futurama/content', false, /\.(png|jpe?g|svg)$/));
-    setContentImages(images);
-  }, []);
+    // Load content images
+    const loadImages = async () => {
+      try {
+        const imageContext = require.context('../assets', true, /\.(png|jpe?g|svg)$/);
+        const imageKeys = imageContext.keys().filter(key => key.includes(`${path}/content/`));
+        const images = imageKeys.map(key => imageContext(key));
+        setContentImages(images);
+      } catch (error) {
+        console.error('Error loading images:', error);
+      }
+    };
+
+    loadImages();
+  }, [path]);
 
   const handleClick = () => {
     setShowContent(true);
@@ -41,14 +48,14 @@ const ProjectCard = () => {
 
   const handlePrevImage = (e) => {
     e.stopPropagation();
-    setCurrentImageIndex((prevIndex) => 
+    setCurrentImageIndex((prevIndex) =>
       prevIndex === 0 ? contentImages.length - 1 : prevIndex - 1
     );
   };
 
   const handleNextImage = (e) => {
     e.stopPropagation();
-    setCurrentImageIndex((prevIndex) => 
+    setCurrentImageIndex((prevIndex) =>
       prevIndex === contentImages.length - 1 ? 0 : prevIndex + 1
     );
   };
@@ -56,7 +63,7 @@ const ProjectCard = () => {
   return (
     <>
       <div className="profile_card" onClick={handleClick}>
-        <img src={coverImage} alt="cover" />
+        <img src={require(`../assets/${path}/cover.jpg`)} alt="cover" />
         <div className='info'>
           <div className='name'>{name}</div>
           <div className='type'>{type}</div>
