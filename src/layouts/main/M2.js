@@ -6,7 +6,6 @@ const M2 = () => {
   return (
     <div className="projects">
       <ProjectCard path="projects/futurama" />
-      <ProjectCard path="projects/ingenia" />
       
     </div>
   );
