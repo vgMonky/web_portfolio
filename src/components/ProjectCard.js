@@ -10,17 +10,23 @@ const ProjectCard = ({ path }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
-    // Fetch info text
-    fetch(`/src/assets/${path}/info.txt`)
-      .then(response => response.text())
-      .then(text => {
-        const lines = text.split('\n');
-        const nameMatch = lines[0].match(/name = "(.*?)"/);
-        const typeMatch = lines[1].match(/type = "(.*?)"/);
-        if (nameMatch) setName(nameMatch[1]);
-        if (typeMatch) setType(typeMatch[1]);
-      })
-      .catch(error => console.error('Error fetching the info:', error));
+    const loadInfo = async () => {
+      try {
+        const infoModule = await import(`../assets/${path}/info.txt`);
+        const infoText = await fetch(infoModule.default).then(res => res.text());
+        const lines = infoText.split('\n');
+        if (lines.length >= 2) {
+          setName(lines[0].trim());
+          setType(lines[1].trim());
+        } else {
+          console.error('Unexpected format in info.txt');
+        }
+      } catch (error) {
+        console.error('Error loading info:', error);
+      }
+    };
+
+    loadInfo();
 
     // Load content images
     const loadImages = async () => {
@@ -33,7 +39,6 @@ const ProjectCard = ({ path }) => {
         console.error('Error loading images:', error);
       }
     };
-
     loadImages();
   }, [path]);
 
