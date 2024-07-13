@@ -1,12 +1,17 @@
 import React from 'react';
-import './main_grid.css'
+import './M2.css'
 import ProjectCard from '../../components/ProjectCard'
 
 const M2 = () => {
   return (
-    <div className="projects">
-      <ProjectCard path="projects/futurama" />
-      
+    <div className="main container">
+      <div className='grid_gallery'>
+        <ProjectCard path="projects/futurama" />
+        <ProjectCard path="projects/ingenia" />
+        <ProjectCard path="projects/futurama" />
+        <ProjectCard path="projects/futurama" />
+        <ProjectCard path="projects/ingenia" />
+      </div>
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import React from 'react';
-import './main_grid.css';
+import './M1.css';
 import BigText from '../../components/BigText';
 import ProfileImg from '../../components/ProfileImg';
 import ProfileCard from '../../components/ProfileCard';
