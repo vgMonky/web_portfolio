@@ -16,8 +16,10 @@ const ProjectCard = ({ path }) => {
         const infoText = await fetch(infoModule.default).then(res => res.text());
         const lines = infoText.split('\n');
         if (lines.length >= 2) {
-          setName(lines[0].trim());
-          setType(lines[1].trim());
+          const nameMatch = lines[0].match(/"(.*?)"/);
+          const typeMatch = lines[1].match(/"(.*?)"/);
+          if (nameMatch) setName(nameMatch[1]);
+          if (typeMatch) setType(typeMatch[1]);
         } else {
           console.error('Unexpected format in info.txt');
         }
@@ -25,7 +27,7 @@ const ProjectCard = ({ path }) => {
         console.error('Error loading info:', error);
       }
     };
-
+  
     loadInfo();
 
     // Load content images
