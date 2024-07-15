@@ -1,13 +1,13 @@
 :root {
 
-    --navbar-side-color: #222;
-    --navbar-color: #222;
+    --navbar-side-color: #555;
+    --navbar-color: #000;
     
     --main-side-color: #888;
-    --main-color: #888;
+    --main-color: #ffffff;
 
-    --foot-side-color: #222;
-    --foot-color: #222;
+    --foot-side-color: #555;
+    --foot-color: #000;
 
     --max-width: 1200px;
     --bar-height: 60px;

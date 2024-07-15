@@ -13,7 +13,6 @@
     max-width: var();
     height: var(--bar-height);
     padding: 0 var(--side-margin);
-    color: white;
     background-color: var(--foot-color);
     align-items: center;
 

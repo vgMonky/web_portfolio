@@ -19,10 +19,10 @@ const M1 = () => {
         <div className='m7'>
           <ProfileCard
             title="Victor Goudschaal"
-            description1="Front-end Developer & Designer with 4 years of experience creating digital products such as web-pages, branding manuals and more."
-            description2="I strive to constantly keep learning about technology to expand my capabilities as a digital creator."
-            button="Click me"
-            hover="More Projects"
+            description1="Front-end Developer & Designer with 4 years of experience creating digital products."
+            description2="Let me help you expand your bussiness with the power of technology and creation."
+            button="Action"
+            hover="Projects"
           />
         </div>
       </div>

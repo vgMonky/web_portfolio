@@ -4,7 +4,7 @@ import ProjectCard from '../../components/ProjectCard'
 
 const M2 = () => {
   return (
-    <div className="main container">
+    <div className="main_container">
       <div className='grid_gallery'>
         <ProjectCard path="projects/futurama" />
         <ProjectCard path="projects/ingenia" />
