@@ -1,10 +1,10 @@
 /* ./components/navbar/Navbar.css */
 .navbar{
-    background-color: var(--navbar-side-color);
+
     width: 100%;
     position: fixed;
     height: var(--bar-height);
-    border: 1px solid red;
+    background-color: var(--t0);
 }
 
 .navbar-content {
@@ -16,13 +16,12 @@
     height: var(--bar-height);
     padding: 0 var(--side-margin);
     color: white;
-    background-color: var(--navbar-color)
+    background-color: vvar(--t0);
 }
 
 .logo {
     display: flex;
     align-items: center;
-    border: 1px solid red;
 }
 
 .logo img {

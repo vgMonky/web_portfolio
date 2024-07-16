@@ -79,7 +79,7 @@ const ProjectCard = ({ path }) => {
       {showContent && (
         <div className="content-overlay">
           <div className="content-container">
-            <button className="close-button" onClick={handleCloseContent}>X</button>
+            <div className="close-button" onClick={handleCloseContent}>X</div>
             <div className='content'>
               {contentImages.length > 0 && (
                 <>

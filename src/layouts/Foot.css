@@ -1,5 +1,5 @@
 .foot{
-    background-color: var(--foot-side-color);
+    background-color: var(--t0);
     width: 100%;
     position: fixed;
     bottom: 0;
@@ -10,10 +10,10 @@
     margin: auto;
     display: flex;
     justify-content: center;
-    max-width: var();
+    max-width: var(--max-width);
     height: var(--bar-height);
     padding: 0 var(--side-margin);
-    background-color: var(--foot-color);
+    background-color: var(--t0);
     align-items: center;
 
   }

@@ -12,7 +12,7 @@
     gap: 80px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 700px) {
     .menu-icon {
         display: block;
     }
@@ -20,7 +20,7 @@
     .menu-items {
         display: none;
         flex-direction: column;
-        position: absolute;
+        position: absoxlute;
         gap: 20px;
         top: 40px;
         right: 0;
