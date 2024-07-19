@@ -3,6 +3,7 @@ import './M1.css';
 import BigText from '../../components/BigText';
 import ProfileImg from '../../components/ProfileImg';
 import ProfileCard from '../../components/ProfileCard';
+import Logos from '../../components/Logos';
 import Expand from '../../components/Expand';
 import profile_img from '../../assets/profile.jpg';
 
@@ -27,7 +28,9 @@ const M1 = () => {
         </div>
       </div>
 
-
+      <div className='row'>
+        <div className='m10'><Logos/></div>
+      </div>
 
       <div className='row'>
         <div className='m10'><Expand
