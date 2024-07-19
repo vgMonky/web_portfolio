@@ -4,11 +4,11 @@ import './Logos.css';
 
 const LogoSet = () => (
   <>
-    <FaHtml5 className="logo html" title="HTML5" />
-    <FaCss3Alt className="logo css" title="CSS3" />
-    <FaJs className="logo js" title="JavaScript" />
-    <FaReact className="logo react" title="React" />
-    <FaPython className="logo python" title="Python" />
+    <FaHtml5 className="logo html" title="HTML5" onClick={() => window.open('https://developer.mozilla.org/en-US/docs/Web/HTML')} />
+    <FaCss3Alt className="logo css" title="CSS3" onClick={() => window.open('https://developer.mozilla.org/en-US/docs/Web/CSS')} />
+    <FaJs className="logo js" title="JavaScript" onClick={() => window.open('https://developer.mozilla.org/en-US/docs/Web/JavaScript')} />
+    <FaReact className="logo react" title="React" onClick={() => window.open('https://reactjs.org/')} />
+    <FaPython className="logo python" title="Python" onClick={() => window.open('https://www.python.org')} />
   </>
 );
 
