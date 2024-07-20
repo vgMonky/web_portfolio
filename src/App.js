@@ -1,5 +1,6 @@
 // src/App.js
 import './var.css';
+import './App.css';
 import React from 'react';
 import Navbar from './layouts/Navbar';
 import Main from './layouts/Main';
@@ -10,6 +11,8 @@ const App = () => {
   return (
     <AppProvider>
       <div className="app">
+        <div className="bg"></div>
+        <div className="glass"></div>
         <Navbar />
         <Main />
         <Foot />

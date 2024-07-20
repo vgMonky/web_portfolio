@@ -1,17 +1,25 @@
 import React from 'react';
 import './ProfileCard.css';
+import Logos from './Logos';
 
 const ProfileCard = ({ title, description1, description2, button, hover }) => {
   return (
-    <div className="profile_card">
-      <h2 className='title'>{title}</h2>
-      <h2 className='description'>{description1}</h2>
-      <h3 className='description'>{description2}</h3>
-      <div className='buttons_container'>
-        <div className='button'>{button}</div>
-        <div className='hover'>{hover}</div>
+    <>
+      <style>
+        {`
+          .profile_card .logo-track .logo {
+            color: white;
+            width: 30px;
+          }
+        `}
+      </style>
+      <div className="profile_card">
+        <h2 className='title'>{title}</h2>
+        <h3 className='description'>{description1}</h3>
+        <Logos />
+        <h3 className='description'>{description2}</h3>
       </div>
-    </div>
+    </>
   );
 };
 

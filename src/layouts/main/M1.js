@@ -12,23 +12,24 @@ const M1 = () => {
     <div className="main-container">
 
       <div className='row'>
-        <div className='m10'><BigText text={"VICTOR GOU."}/></div>
+        <div className='m10'><BigText text={"Front end Designer with +4 years of experience."}/></div>
+      </div>
+
+      <div className='row'>
+        <div className='m10'><Logos/></div>
       </div>
 
       <div className='row'>
         <div className='m3'><ProfileImg src={profile_img} /></div>
         <div className='m7'>
           <ProfileCard
-            title="Front end Developer & Designer with +4 years of experience."
-            description2="Let me help you expand your bussiness with the power of technology and creation."
+            title="Welcome, I'm Victor Goudschaal."
+            description1="A Front-End developer with background in Art Direction. "
+            description2="Constantly learning about technology to expand capabilities as a digital creator.  "
             button="Action"
             hover="Projects"
           />
         </div>
-      </div>
-
-      <div className='row'>
-        <div className='m10'><Logos/></div>
       </div>
 
       <div className='row'>

@@ -7,10 +7,16 @@
     padding: 20px;
     box-sizing: border-box;
   
-    background-color:var(--t3);
-    border: var(--bw) solid var(--t1);
+    background-color:var(--tc);
+    border: var(--bw) solid var(--t2);
     border-radius: var(--br);
   }
+.expand:hover{
+    background-color:var(--tc);
+    border: var(--bw) solid var(--t4);
+    border-radius: var(--br);
+  }
+
   
   .header {
     display: flex;
@@ -26,7 +32,7 @@
   
   .icon {
     margin-left: 10px;
-    color: var(--t1);
+    color: var(--t2);
   }
   
   .expand p {
@@ -34,3 +40,5 @@
     margin-top: 10px;
   }
   
+
+

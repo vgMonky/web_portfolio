@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
+import { FiChevronDown, FiChevronUp } from 'react-icons/fi'; // Using thinner Feather icons
 import './Expand.css';
 
 const Expand = ({ subtitle, description }) => {
@@ -13,7 +13,7 @@ const Expand = ({ subtitle, description }) => {
     <div className="expand">
       <div className="header" onClick={handleToggle}>
         <h3>{subtitle}</h3>
-        {isExpanded ? <FaChevronUp className="icon" /> : <FaChevronDown className="icon" />}
+        {isExpanded ? <FiChevronUp className="icon" /> : <FiChevronDown className="icon" />}
       </div>
       {isExpanded && <p className="description">{description}</p>}
     </div>

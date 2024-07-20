@@ -1,5 +1,4 @@
 .main{
-    background-color: var(--t1);
     overflow-y: auto;
 }
 
@@ -10,6 +9,5 @@
     max-width: var(--max-width);
     padding: 20px var(--side-margin);
     color: var(--t3);
-    background-color: var(--t3);
     min-height: calc(100vh - calc(var(--bar-height)*2));
 }

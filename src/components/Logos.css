@@ -18,13 +18,10 @@
   cursor: pointer;
 }
 
-.logo:hover {
+.logo-track .logo:hover {
   transform: scale(1.2);
 }
 
-.logo-container:hover .logo-track {
-  animation-play-state: paused;
-}
 
 @keyframes scroll {
   0% {
