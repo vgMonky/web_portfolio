@@ -11,6 +11,7 @@ const App = () => {
   return (
     <AppProvider>
       <div className="app">
+        <div className="color-bg"></div>
         <div className="bg"></div>
         <div className="glass"></div>
         <Navbar />

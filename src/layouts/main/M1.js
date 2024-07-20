@@ -19,13 +19,16 @@ const M1 = () => {
         <div className='m10'><Logos/></div>
       </div>
 
+      <div className='row space'>
+      </div>
+
       <div className='row'>
         <div className='m3'><ProfileImg src={profile_img} /></div>
         <div className='m7'>
           <ProfileCard
-            title="I'm Victor Goudschaal, a young digital creator."
-            description1="Check out my previous collaborations."
-            description2="More Projects"
+            title="Victor Goudschaal."
+            description1="Junior Digital Creator"
+            description2="Check out this project colaborations."
           />
         </div>
       </div>

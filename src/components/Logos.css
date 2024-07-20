@@ -2,7 +2,7 @@
   display: flex;
   overflow: hidden;
   width: 100%;
-  margin-bottom: 20px;
+
 }
 
 .logo-track {
@@ -11,9 +11,9 @@
 }
 
 .logo-track .logo {
-  width: 70px;
-  height: 70px;
-  margin: 10px 40px;
+  width: 60px;
+  height: 60px;
+  margin: 0px 50px ;
   color: var(--t0);
   transition: transform 0.3s;
   cursor: pointer;

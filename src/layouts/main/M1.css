@@ -12,6 +12,10 @@
     gap: 10px;
 }
 
+.space {
+    margin-bottom: 30px;
+}
+
 .m1 {
     border: 1px solid var(--layout-border-color);
     width: 10%;

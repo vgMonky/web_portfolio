@@ -18,6 +18,7 @@ const ProfileCard = ({ title, description1, description2}) => {
         <h3 className='description'>{description1}</h3>
         <Logos />
         <p className='description'>{description2}</p>
+        
       </div>
     </>
   );

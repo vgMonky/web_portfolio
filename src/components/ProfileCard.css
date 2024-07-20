@@ -1,6 +1,6 @@
 .profile_card {
     width: 100%;
-    min-height: 300px;
+    min-height: 200px;
     display: flex;
     flex-direction: column;
     gap: 2px;
@@ -12,4 +12,8 @@
     border-radius: var(--br);
     backdrop-filter: blur(5px); /* Applies the blur effect */
     -webkit-backdrop-filter: blur(1px); /* Safari compatibility */
+}
+
+.profile_card h3{
+    margin-bottom: 50px ;
 }
