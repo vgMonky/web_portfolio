@@ -5,7 +5,7 @@ const BigText = ({text}) => {
 
   return (
     <div className="big_text">
-        <div className='text'>{text}</div>
+        <h1>{text}</h1>
     </div>
   );
 };

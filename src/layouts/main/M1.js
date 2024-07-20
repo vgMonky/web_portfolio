@@ -12,15 +12,14 @@ const M1 = () => {
     <div className="main-container">
 
       <div className='row'>
-        <div className='m10'><BigText text={"FRONT END DESIGNER."}/></div>
+        <div className='m10'><BigText text={"VICTOR GOU."}/></div>
       </div>
 
       <div className='row'>
         <div className='m3'><ProfileImg src={profile_img} /></div>
         <div className='m7'>
           <ProfileCard
-            title="Victor Goudschaal"
-            description1="Front-end Developer & Designer with 4 years of experience creating digital products."
+            title="Front end Developer & Designer with +4 years of experience."
             description2="Let me help you expand your bussiness with the power of technology and creation."
             button="Action"
             hover="Projects"

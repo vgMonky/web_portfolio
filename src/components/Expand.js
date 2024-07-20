@@ -12,7 +12,7 @@ const Expand = ({ subtitle, description }) => {
   return (
     <div className="expand">
       <div className="header" onClick={handleToggle}>
-        <p className='subtitle'>{subtitle}</p>
+        <h3>{subtitle}</h3>
         {isExpanded ? <FaChevronUp className="icon" /> : <FaChevronDown className="icon" />}
       </div>
       {isExpanded && <p className="description">{description}</p>}

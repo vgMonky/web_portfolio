@@ -2,7 +2,7 @@
     --font: Poppins;
 
     /* tone */
-    --t0: #111;
+    --t0: #000000;
     --t1: #444;
     --t2: #999;
     --t3: #fff;
@@ -19,18 +19,6 @@
 
 
 
-
-
-
-
-    --navbar-side-color: #555;
-    --navbar-color: #000;
-    
-    --main-side-color: #888;
-    --main-color: #ffffff;
-
-    --foot-side-color: #555;
-    --foot-color: #000;
 
     --max-width: 1200px;
     --bar-height: 60px;

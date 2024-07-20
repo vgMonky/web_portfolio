@@ -1,8 +1,11 @@
-.text{
-    font-weight: 700;
-    line-height: 7.5rem;
+.big_text{
+    padding: 25px 35px;
 
-    font-size: var(--s0);
-    color: var(--t0);
+    color: var(--t3);
+    background-color: var(--t1);
+    border: var(--bw) solid var(--bc);
+    border-radius: var(--br);
+
+
 }
-/* MAKE THIS MOVE OR HAVE SOME FX */
+

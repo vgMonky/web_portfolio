@@ -20,16 +20,17 @@
 
   }
 
-  .subtitle{
-    color: #222;
+  .expand h3{
+    color: var(--t1);
   }
   
   .icon {
     margin-left: 10px;
-    color: #444;
+    color: var(--t1);
   }
   
-  .description {
+  .expand p {
+    color: var(--t1);
     margin-top: 10px;
   }
   
