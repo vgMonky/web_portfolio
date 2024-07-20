@@ -15,8 +15,10 @@
     max-width: var(--max-width);
     height: var(--bar-height);
     padding: 0 var(--side-margin);
-    color: white;
-    background-color: vvar(--t0);
+
+    background-color: var(--t0);
+    backdrop-filter: blur(5px); /* Applies the blur effect */
+    -webkit-backdrop-filter: blur(1px); /* Safari compatibility */
 }
 
 .logo {

@@ -8,8 +8,7 @@ const BigText = ({text}) => {
         <h1>{text}</h1>
         <h3>Let me help you expand your bussiness with the power of technology.</h3>
         <div className='buttons_container'>
-          <div className='button'>action</div>
-          <div className='hover'>projects</div>
+          <div className='button'>Try Me</div>
       </div>
     </div>
   );

@@ -23,11 +23,9 @@ const M1 = () => {
         <div className='m3'><ProfileImg src={profile_img} /></div>
         <div className='m7'>
           <ProfileCard
-            title="Welcome, I'm Victor Goudschaal."
-            description1="A Front-End developer with background in Art Direction. "
-            description2="Constantly learning about technology to expand capabilities as a digital creator.  "
-            button="Action"
-            hover="Projects"
+            title="I'm Victor Goudschaal, a young digital creator."
+            description1="Check out my previous collaborations."
+            description2="More Projects"
           />
         </div>
       </div>

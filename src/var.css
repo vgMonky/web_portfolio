@@ -2,17 +2,19 @@
     --font: Poppins;
 
     /* tone */
-    --t0: #151515;
+    --t0: hsla(0, 0%, 0%, 0.92);
     --t1: #444;
     --t2: #999;
     --t3: #fff;
     --t4: rgb(192, 157, 0);
+
 
     /* size */
     --s0: 36pt;
     --s1: 16pt;
     --s2: 13pt;
     --s3: 10pt;
+
 
     /* border */
     --bw: 1px;
@@ -21,7 +23,7 @@
 
 
 
-    --max-width: 1200px;
+    --max-width: 1400px;
     --bar-height: 60px;
     --side-margin: 40px;
 

@@ -1,5 +1,4 @@
 .foot{
-    background-color: var(--t0);
     width: 100%;
     position: fixed;
     bottom: 0;
@@ -7,14 +6,19 @@
 }
 
 .foot-content {
-    margin: auto;
     display: flex;
+    align-items: center;
     justify-content: center;
+    margin: auto;
     max-width: var(--max-width);
     height: var(--bar-height);
     padding: 0 var(--side-margin);
+
     background-color: var(--t0);
-    align-items: center;
+    backdrop-filter: blur(5px); /* Applies the blur effect */
+    -webkit-backdrop-filter: blur(1px); /* Safari compatibility */
+
+    
 
   }
   

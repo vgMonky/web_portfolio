@@ -61,7 +61,9 @@ p{
   padding: 10px 40px;
   border-radius: 50px;
 
+
 }
 .button:hover {
-  background-color: var(--t4);
+  background-color: var(--t0);
+  color: var(--t3);
 }

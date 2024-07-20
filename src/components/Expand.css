@@ -7,14 +7,16 @@
     padding: 20px;
     box-sizing: border-box;
   
-    background-color:var(--tc);
-    border: var(--bw) solid var(--t2);
+    background-color:rgba(0, 0, 0, 0.3);
+    border: var(--bw) solid var(--tc);
     border-radius: var(--br);
+
+    
+
   }
 .expand:hover{
-    background-color:var(--tc);
-    border: var(--bw) solid var(--t4);
-    border-radius: var(--br);
+    scale: 1.02;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.2);
   }
 
   
@@ -27,16 +29,16 @@
   }
 
   .expand h3{
-    color: var(--t1);
+    color: var(--t3);
   }
   
-  .icon {
+  .expand .icon {
     margin-left: 10px;
-    color: var(--t2);
+    color: var(--t3);
   }
   
   .expand p {
-    color: var(--t1);
+    color: var(--t3);
     margin-top: 10px;
   }
   

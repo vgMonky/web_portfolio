@@ -2,7 +2,7 @@ import React from 'react';
 import './ProfileCard.css';
 import Logos from './Logos';
 
-const ProfileCard = ({ title, description1, description2, button, hover }) => {
+const ProfileCard = ({ title, description1, description2}) => {
   return (
     <>
       <style>
@@ -17,7 +17,7 @@ const ProfileCard = ({ title, description1, description2, button, hover }) => {
         <h2 className='title'>{title}</h2>
         <h3 className='description'>{description1}</h3>
         <Logos />
-        <h3 className='description'>{description2}</h3>
+        <p className='description'>{description2}</p>
       </div>
     </>
   );
