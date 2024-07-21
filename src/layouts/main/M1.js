@@ -19,7 +19,6 @@ const M1 = () => {
       <div className='row'>
         <div className='m10'><Logos/></div>
       </div>
-
       <div className='row space'>
       </div>
 

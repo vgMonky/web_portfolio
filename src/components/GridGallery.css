@@ -1,15 +1,11 @@
-.outer-container {
-    padding: 20px 30px;
-    background-color: var(--t0);
-    position: relative;
-    border-radius: var(--br);
-  }
+
   
   .grid-container {
     position: relative;
     display: flex;
     overflow: hidden;
     width: 100%;
+    border-radius: var(--br);
   }
   
   .grid-container::before,
@@ -20,18 +16,6 @@
     bottom: 0;
     width: 25px; /* Adjust the width as needed */
     z-index: 1;
-  }
-  
-  .grid-container::before {
-    left: 0;
-    background: linear-gradient(to right, var(--t0), rgba(255, 255, 255, 0));
-    mask-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
-  }
-  
-  .grid-container::after {
-    right: 0;
-    background: linear-gradient(to left, var(--t0), rgba(255, 255, 255, 0));
-    mask-image: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
   }
   
   .grid-track {
@@ -46,14 +30,8 @@
     margin-right: 0; /* Remove margin for the last track */
   }
   
-  /* Responsive adjustments */
-  @media screen and (max-width: 1400px) {
-    .grid-track {
-      grid-template-columns: repeat(5, minmax(300px, 1fr));
-    }
-  }
-  
-  @media screen and (max-width: 768px) {
+
+  @media screen and (max-width: 1200px) {
     .grid-track {
       grid-template-columns: repeat(5, minmax(200px, 1fr));
     }

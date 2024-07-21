@@ -68,35 +68,9 @@ const ProjectCard = ({ path }) => {
   };
 
   return (
-    <>
-      <div className="profile_card" onClick={handleClick}>
+      <div className="project_card" /*onClick={handleClick}*/>
         <img src={require(`../assets/${path}/cover.jpg`)} alt="cover" />
-        <div className='info'>
-          <div className='name'>{name}</div>
-          <div className='type'>{type}</div>
-        </div>
       </div>
-      {showContent && (
-        <div className="content-overlay">
-          <div className="content-container">
-            <div className="close-button" onClick={handleCloseContent}>X</div>
-            <div className='content'>
-              {contentImages.length > 0 && (
-                <>
-                  <img src={contentImages[currentImageIndex]} alt={`content-${currentImageIndex + 1}`} />
-                  <button className="arrow left" onClick={handlePrevImage}>
-                    <FaArrowLeft />
-                  </button>
-                  <button className="arrow right" onClick={handleNextImage}>
-                    <FaArrowRight />
-                  </button>
-                </>
-              )}
-            </div>
-          </div>
-        </div>
-      )}
-    </>
   );
 };
 

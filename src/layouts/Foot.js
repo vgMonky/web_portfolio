@@ -13,7 +13,7 @@ const Foot = () => {
                 <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer">
                 <FaGithub className="icon hover" />
                 </a>
-                <a href="https://www.behance.net/yourprofile" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.behance.net/victorgoudsch" target="_blank" rel="noopener noreferrer">
                 <FaBehance className="icon hover" />
                 </a>
                 <a href="mailto:your.email@example.com">
