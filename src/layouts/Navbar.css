@@ -7,6 +7,7 @@
     width: 100%;
     position: fixed;
     height: var(--bar-height);
+    z-index: 100;
 }
 
 .navbar-content {

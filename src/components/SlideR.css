@@ -1,0 +1,25 @@
+.slide-container {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 150px;
+    border-radius: var(--br);
+  }
+  
+  .slide-track-R {
+    display: flex;
+    animation: scrollR 20s linear infinite;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
+    height: 100%; /* Take full height of parent */
+  }
+  
+  @keyframes scrollR {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }

@@ -1,11 +1,13 @@
-.project_card{
-  width: 100%;
+.project_card {
   display: flex;
   flex-direction: column;
-  box-sizing: border-box; /* Includes padding and border in the element's total width and height */
-
+  box-sizing: border-box;
+  height: 100%; /* Take full height of parent */
 }
 
-.project_card img{
+.project_card img {
   border-radius: var(--br);
+  height: 100%; /* Take full height of parent */
+  width: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Cover the area without stretching */
 }

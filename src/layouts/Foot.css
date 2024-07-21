@@ -17,14 +17,14 @@
   padding: 0 var(--side-margin);
 }
   
-.social-icons {
+.foot .social-icons {
   display: flex;
   justify-content: center;
   gap: 20px;
   padding-bottom: 0;
 }
 
-.icon {
+.foot .icon {
   font-size: 24px;
   padding: 5px 10px;
 }

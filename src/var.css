@@ -6,7 +6,7 @@
     --t1: #444;
     --t2: #999;
     --t3: #fff;
-    --t4: rgb(0, 0, 0);
+    --t4: rgb(32, 68, 146);
 
 
     /* size */
@@ -23,7 +23,7 @@
 
 
 
-    --max-width: 1400px;
+    --max-width: 1800px;
     --bar-height: 60px;
     --side-margin: 40px;
 

@@ -8,7 +8,7 @@
   box-sizing: border-box;
   transition: 0.3s;
 
-  background-color:rgba(0, 0, 0, 0.3);
+  background-color:var(--t0);
   border: var(--bw) solid var(--tc);
   border-radius: var(--br);
   backdrop-filter: blur(5px); /* Applies the blur effect */
@@ -30,16 +30,16 @@
 }
 
 .expand h3{
-  color: var(--t3);
+  color: var(--t2);
 }
 
 .expand .icon {
   margin-left: 10px;
-  color: var(--t3);
+  color: var(--t2);
 }
 
 .expand p {
-  color: var(--t3);
+  color: var(--t2);
   margin-top: 10px;
 }
 

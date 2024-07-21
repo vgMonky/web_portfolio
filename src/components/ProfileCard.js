@@ -1,6 +1,6 @@
 import React from 'react';
 import './ProfileCard.css';
-import Logos from './Logos';
+import { FaLinkedin, FaGithub, FaBehance, FaEnvelope } from 'react-icons/fa';
 
 const ProfileCard = ({ title, description1, description2}) => {
   return (
@@ -16,7 +16,20 @@ const ProfileCard = ({ title, description1, description2}) => {
       <div className="profile_card">
         <h2 className='title'>{title}</h2>
         <h3 className='description'>{description1}</h3>
-        <Logos />
+        <div className="social-icons">
+              <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+              <FaLinkedin className="icon hover" />
+              </a>
+              <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer">
+              <FaGithub className="icon hover" />
+              </a>
+              <a href="https://www.behance.net/victorgoudsch" target="_blank" rel="noopener noreferrer">
+              <FaBehance className="icon hover" />
+              </a>
+              <a href="mailto:your.email@example.com">
+              <FaEnvelope className="icon hover" />
+              </a>
+          </div>
         <p className='description'>{description2}</p>
         
       </div>

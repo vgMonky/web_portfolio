@@ -6,7 +6,8 @@ import ProfileCard from '../../components/ProfileCard';
 import Logos from '../../components/Logos';
 import Expand from '../../components/Expand';
 import profile_img from '../../assets/profile.jpg';
-import GridGallery from '../../components/GridGallery';
+import SlideL from '../../components/SlideL';
+import SlideR from '../../components/SlideR';
 
 const M1 = () => {
   return (
@@ -32,10 +33,43 @@ const M1 = () => {
           />
         </div>
       </div>
+      <div className='row space'>
+      </div>
+      <div className='row space'>
+      </div>
+      <div className='row space'>
+      </div>
+      <div className='row space'>
+      </div>
+      <div className='row space'>
+      </div>
+      <div className='row space'>
+      </div>
+      <div className='row space'>
+      </div>
+      <div className='row space'>
+      </div>
+      <div className='row space'>
+      </div>
+
+
+
+      <h1>+4 years creating digital products.</h1>
+      <div className='row'>
+        <div className='m10'><SlideR/></div>
+      </div>
+      <div className='row'>
+        <div className='m10'><SlideL/></div>
+      </div>
+      <div className='row'>
+        <div className='m10'><SlideR/></div>
+      </div>
+
 
       <div className='row'>
-        <div className='m10'><GridGallery/></div>
+        <div className='m10'><BigText text={"Why you need a Front End Designer?"}/></div>
       </div>
+
 
       <div className='row'>
         <div className='m10'><Expand
