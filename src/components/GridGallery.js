@@ -14,12 +14,14 @@ const ProjectSet = () => (
 
 const GridGallery = () => {
   return (
-    <div className="grid-container">
-      <div className="grid-track">
-        <ProjectSet />
-      </div>
-      <div className="grid-track">
-        <ProjectSet />
+    <div className="outer-container">
+      <div className="grid-container">
+        <div className="grid-track">
+          <ProjectSet />
+        </div>
+        <div className="grid-track">
+          <ProjectSet />
+        </div>
       </div>
     </div>
   );
