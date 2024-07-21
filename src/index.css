@@ -12,7 +12,7 @@ a {
 }
 
 
-/* MICRO COMPONENTS */
+/* MICRO COMPONENTS: TEXT */
 
 h1 {
   font-size: var(--s0);
@@ -42,6 +42,7 @@ p{
 
 
 
+/* MICRO COMPONENTS: triggers */
 
 .hover {
   transition: 0.4s;
@@ -58,12 +59,20 @@ p{
   background-color: var(--t3);
   padding: 10px 40px;
   border-radius: 50px;
-
-
-
+  box-shadow: 0 2px 25px rgba(0, 0, 0, 0.15);
 }
 .button:hover {
   background-color: var(--t4);
   color: var(--t3);
   box-shadow: 0 2px 25px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+/* Attribute */
+
+.glass{
+  backdrop-filter: blur(5px); /* Applies the blur effect */
+  -webkit-backdrop-filter: blur(5px); /* Safari compatibility */
 }

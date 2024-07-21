@@ -13,7 +13,7 @@
 .logo-track .logo {
   width: 60px;
   height: 60px;
-  margin: 0px 50px ;
+  margin: 10px 50px ;
   color: var(--t0);
   transition: transform 0.3s;
   cursor: pointer;

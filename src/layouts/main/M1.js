@@ -6,6 +6,7 @@ import ProfileCard from '../../components/ProfileCard';
 import Logos from '../../components/Logos';
 import Expand from '../../components/Expand';
 import profile_img from '../../assets/profile.jpg';
+import GridGallery from '../../components/GridGallery';
 
 const M1 = () => {
   return (
@@ -27,10 +28,14 @@ const M1 = () => {
         <div className='m7'>
           <ProfileCard
             title="Victor Goudschaal."
-            description1="Junior Digital Creator"
-            description2="Check out this project colaborations."
+            description1="Digital Creator"
+            description2="+4 years collaborating with different businesses . . ."
           />
         </div>
+      </div>
+
+      <div className='row'>
+        <div className='m10'><GridGallery/></div>
       </div>
 
       <div className='row'>
