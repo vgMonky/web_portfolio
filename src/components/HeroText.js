@@ -1,7 +1,7 @@
 import React from 'react';
-import './BigText.css';
+import './HeroText.css';
 
-const BigText = ({text}) => {
+const HeroText = ({text}) => {
 
   return (
     <div className="big_text">
@@ -14,4 +14,4 @@ const BigText = ({text}) => {
   );
 };
 
-export default BigText;
+export default HeroText

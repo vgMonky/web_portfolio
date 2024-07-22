@@ -14,8 +14,8 @@ const ProfileCard = ({ title, description1, description2}) => {
         `}
       </style>
       <div className="profile_card">
-        <h2 className='title'>{title}</h2>
-        <h3 className='description'>{description1}</h3>
+        <h2>{title}</h2>
+        <h3 >{description1}</h3>
         <div className="social-icons">
               <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
               <FaLinkedin className="icon hover" />
@@ -30,7 +30,7 @@ const ProfileCard = ({ title, description1, description2}) => {
               <FaEnvelope className="icon hover" />
               </a>
           </div>
-        <p className='description'>{description2}</p>
+        <p>{description2}</p>
         
       </div>
     </>

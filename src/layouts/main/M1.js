@@ -1,6 +1,7 @@
 import React from 'react';
 import './M1.css';
-import BigText from '../../components/BigText';
+import HeroText from '../../components/HeroText';
+import Title from '../../components/Title';
 import ProfileImg from '../../components/ProfileImg';
 import ProfileCard from '../../components/ProfileCard';
 import Logos from '../../components/Logos';
@@ -14,7 +15,7 @@ const M1 = () => {
     <div className="main-container">
 
       <div className='row'>
-        <div className='m10'><BigText text={"Front end Designer with +4 years of experience."}/></div>
+        <div className='m10'><HeroText text={"Front end Designer with +4 years of experience."}/></div>
       </div>
 
       <div className='row'>
@@ -33,28 +34,16 @@ const M1 = () => {
           />
         </div>
       </div>
-      <div className='row space'>
-      </div>
-      <div className='row space'>
-      </div>
-      <div className='row space'>
-      </div>
-      <div className='row space'>
-      </div>
-      <div className='row space'>
-      </div>
-      <div className='row space'>
-      </div>
-      <div className='row space'>
-      </div>
-      <div className='row space'>
-      </div>
-      <div className='row space'>
-      </div>
 
 
 
-      <h1>+4 years creating digital products.</h1>
+
+      <div className='row'>
+        <div className='m10'><Title 
+        text={"+4 years creating digital products."}
+        text2={"Let me help you expand your bussiness with the power of technology."}
+        /></div>
+      </div>
       <div className='row'>
         <div className='m10'><SlideR/></div>
       </div>
@@ -67,7 +56,7 @@ const M1 = () => {
 
 
       <div className='row'>
-        <div className='m10'><BigText text={"Why you need a Front End Designer?"}/></div>
+        <div className='m10'><Title text={"Why you need a Front End Designer?"}/></div>
       </div>
 
 
