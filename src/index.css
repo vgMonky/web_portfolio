@@ -64,7 +64,7 @@ p{
 .button:hover {
   background-color: var(--t4);
   color: var(--t3);
-  box-shadow: 0 2px 25px rgba(0, 0, 0, 0.15);
+  box-shadow: var(--sh);
 }
 
 

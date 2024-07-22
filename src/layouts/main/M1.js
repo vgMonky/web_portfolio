@@ -38,10 +38,11 @@ const M1 = () => {
 
 
 
+
       <div className='row'>
         <div className='m10'><Title 
         text={"+4 years creating digital products."}
-        text2={"Let me help you expand your bussiness with the power of technology."}
+        text2={"Expand your bussiness with the power of technology & design."}
         /></div>
       </div>
       <div className='row'>
@@ -55,10 +56,29 @@ const M1 = () => {
       </div>
 
 
+
       <div className='row'>
-        <div className='m10'><Title text={"Why you need a Front End Designer?"}/></div>
+        <div className='m10'><Title
+        text={"Who is a Front End Designer?"}
+        text2={"Living between the world of communication and engineering:"}
+        /></div>
+      </div>
+      <div className='row'>
+        <div className='m5'><h1>1</h1><h3>they understand the UX principles</h3></div>
+        <div className='m5'><h1>2</h1><h3>they have an eye for aesthetics</h3></div>
+        <div className='m5'><h1>3</h1><h3>they can write HTML, CSS & JavaScript.</h3></div>
+        <div className='m5'><h1>4</h1><h3>they understand the possibilities of frontend development</h3></div>
       </div>
 
+
+      <div className='row space'>
+      </div>
+      <div className='row space'>
+      </div>
+      <div className='row space'>
+      </div>
+      <div className='row space'>
+      </div>
 
       <div className='row'>
         <div className='m10'><Expand

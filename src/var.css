@@ -20,8 +20,8 @@
     --bw: 1px;
     --br: 12px;
 
-
-
+    /* shadow */
+    --sh: 0 2px 25px rgba(0, 0, 0, 0.15);
 
     --max-width: 1800px;
     --bar-height: 60px;

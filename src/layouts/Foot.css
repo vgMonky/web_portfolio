@@ -1,19 +1,22 @@
 .foot{
+  margin-top: 100px;
   background-color: var(--t0);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(1px);
 
   width: 100%;
-  height: var(--bar-height);
+  height: 200px;;
 }
 
 .foot-content {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: auto;
   max-width: var(--max-width);
-  height: var(--bar-height);
+  height: 200px;
+  gap: 30px;
   padding: 0 var(--side-margin);
 }
   
@@ -25,6 +28,10 @@
 }
 
 .foot .icon {
-  font-size: 24px;
+  font-size: 30px;
   padding: 5px 10px;
+}
+
+.foot .cp{
+  color: var(--t2);
 }
