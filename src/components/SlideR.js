@@ -4,8 +4,8 @@ import ProjectCard from './ProjectCard';
 
 const Content = () => (
   <>
-    <ProjectCard path="projects/futurama" />
-    <ProjectCard path="projects/futurama" />
+    <ProjectCard path="projects/ombu" />
+    <ProjectCard path="projects/la_despensa" />
     <ProjectCard path="projects/futurama" />
     <ProjectCard path="projects/ingenia" />
   </>

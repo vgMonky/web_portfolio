@@ -2,12 +2,12 @@
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  height: 100%; /* Take full height of parent */
+  height: 100%; 
 }
 
 .project_card img {
   border-radius: var(--br);
-  height: 100%; /* Take full height of parent */
-  width: auto; /* Maintain aspect ratio */
-  object-fit: cover; /* Cover the area without stretching */
+  height: 100%; 
+  width: auto; 
+  object-fit: cover; 
 }

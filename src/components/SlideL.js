@@ -4,10 +4,11 @@ import ProjectCard from './ProjectCard';
 
 const Content = () => (
   <>
-    <ProjectCard path="projects/futurama" />
-    <ProjectCard path="projects/futurama" />
-    <ProjectCard path="projects/futurama" />
-    <ProjectCard path="projects/ingenia" />
+    <ProjectCard path="projects/unis" />
+    <ProjectCard path="projects/reinventar" />
+    <ProjectCard path="projects/scrum_go" />
+    <ProjectCard path="projects/skygpu" />
+    <ProjectCard path="projects/sonder" />
   </>
 );
 

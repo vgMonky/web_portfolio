@@ -22,7 +22,7 @@ const Foot = () => {
             </a>
           </div>
           <div className='cp'>
-            Follow Victor Gou.
+          © 2023 Victor Gou.
           </div>
 
         </div>

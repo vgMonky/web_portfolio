@@ -51,9 +51,7 @@ const M1 = () => {
       <div className='row'>
         <div className='m10'><SlideL/></div>
       </div>
-      <div className='row'>
-        <div className='m10'><SlideR/></div>
-      </div>
+
 
 
 

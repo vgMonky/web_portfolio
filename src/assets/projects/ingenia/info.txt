@@ -1,2 +1,0 @@
-name = "Ingenia"
-type = "Branding"

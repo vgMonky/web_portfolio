@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaPython } from 'react-icons/fa';
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaPython, FaFigma } from 'react-icons/fa';
 import './Logos.css';
 
 const LogoSet = () => (
@@ -9,6 +9,7 @@ const LogoSet = () => (
     <FaJs className="logo js" title="JavaScript" onClick={() => window.open('https://developer.mozilla.org/en-US/docs/Web/JavaScript')} />
     <FaReact className="logo react" title="React" onClick={() => window.open('https://reactjs.org/')} />
     <FaPython className="logo python" title="Python" onClick={() => window.open('https://www.python.org')} />
+    <FaFigma className="logo figma" title="Figma" onClick={() => window.open('https://www.figma.com')} />
   </>
 );
 
