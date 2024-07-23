@@ -2,29 +2,51 @@ import React, { useEffect, useState } from 'react';
 import './ProjectCard.css';
 
 const ProjectCard = ({ path }) => {
-  const [imageSrc, setImageSrc] = useState(null);
+  const [coverSrc, setCoverSrc] = useState(null);
+  const [contentSrc, setContentSrc] = useState(null);
 
   useEffect(() => {
-    const loadImage = async () => {
+    const loadImages = async () => {
+      // Load cover image
       try {
-        const jpgImage = require(`../assets/${path}/cover.jpg`);
-        setImageSrc(jpgImage);
+        const jpgCover = require(`../assets/${path}/cover.jpg`);
+        setCoverSrc(jpgCover);
       } catch (jpgError) {
         try {
-          const pngImage = require(`../assets/${path}/cover.png`);
-          setImageSrc(pngImage);
+          const pngCover = require(`../assets/${path}/cover.png`);
+          setCoverSrc(pngCover);
         } catch (pngError) {
-          console.error('Error loading image:', jpgError, pngError);
+          console.error('Error loading cover image:', jpgError, pngError);
         }
+      }
+
+      // Load content image
+      try {
+        const contentImage = require(`../assets/${path}/content.jpg`);
+        setContentSrc(contentImage);
+      } catch (error) {
+        console.error('Error loading content image:', error);
+        // If content image doesn't exist, contentSrc will remain null
       }
     };
 
-    loadImage();
+    loadImages();
   }, [path]);
 
   return (
     <div className="project_card">
-      {imageSrc && <img src={imageSrc} alt="cover" />}
+      {coverSrc && (
+        <>
+          <img src={coverSrc} alt="cover" className="cover-image" />
+          <div 
+            className="content-overlay"
+            style={{ 
+              backgroundImage: contentSrc ? `url(${contentSrc})` : 'none',
+              backgroundColor: !contentSrc ? 'black' : 'transparent'
+            }}
+          ></div>
+        </>
+      )}
     </div>
   );
 };
