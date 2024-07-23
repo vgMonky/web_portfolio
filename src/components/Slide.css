@@ -6,13 +6,29 @@
     border-radius: var(--br);
   }
   
-  .slide-track-R {
+  .slide-track {
     display: flex;
-    animation: scrollR 20s linear infinite;
     align-items: center;
     gap: 10px;
     margin-left: 10px;
     height: 100%; /* Take full height of parent */
+  }
+  
+  .slide-track-left {
+    animation: scrollL 20s linear infinite;
+  }
+  
+  .slide-track-right {
+    animation: scrollR 20s linear infinite;
+  }
+  
+  @keyframes scrollL {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
   }
   
   @keyframes scrollR {

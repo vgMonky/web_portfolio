@@ -7,8 +7,8 @@ import ProfileCard from '../../components/ProfileCard';
 import Logos from '../../components/Logos';
 import Expand from '../../components/Expand';
 import profile_img from '../../assets/profile.jpg';
-import SlideL from '../../components/SlideL';
-import SlideR from '../../components/SlideR';
+import Slide from '../../components/Slide';
+import ProjectCard from '../../components/ProjectCard';
 
 const M1 = () => {
   return (
@@ -46,10 +46,21 @@ const M1 = () => {
         /></div>
       </div>
       <div className='row'>
-        <div className='m10'><SlideR/></div>
+        <div className='m10'><Slide dir="right">
+          <ProjectCard path="projects/ombu" />
+          <ProjectCard path="projects/la_despensa" />
+          <ProjectCard path="projects/futurama" />
+          <ProjectCard path="projects/ingenia" />
+        </Slide></div>
       </div>
       <div className='row'>
-        <div className='m10'><SlideL/></div>
+        <div className='m10'><Slide dir="left">
+          <ProjectCard path="projects/unis" />
+          <ProjectCard path="projects/reinventar" />
+          <ProjectCard path="projects/scrum_go" />
+          <ProjectCard path="projects/skygpu" />
+          <ProjectCard path="projects/sonder" />
+        </Slide></div>
       </div>
 
 
