@@ -30,7 +30,7 @@ const M1 = () => {
           <ProfileCard
             title="Victor Goudschaal."
             description1="Digital Creator"
-            description2="+4 years collaborating with different businesses . . ."
+            description2="Click here to download CV document."
           />
         </div>
       </div>
@@ -89,26 +89,28 @@ const M1 = () => {
       <div className='row space'>
       </div>
 
+
       <div className='row'>
-        <div className='m10'><Expand
-          subtitle="Who is a Front End Designer?"
-          description="Front-end designers combine the key components of both jobs living between the world of communication and engineering:
-          >>they understand the UX principles
-          >>they have an eye for aesthetics
-          >>they can write HTML, CSS & JavaScript.
-          >>they understand the possibilities of frontend development"
+        <div className='m10'><Title
+        text={"Let’s Connect!"}
+        text2={"Choose a convenient time or drop a message."}
         /></div>
       </div>
 
       <div className='row'>
         <div className='m10'><Expand
-          subtitle="Why you need a Front End Designer?" 
+          subtitle="Schedule Meeting"
+          description="content..."
+        /></div>
+      </div>
+
+      <div className='row'>
+        <div className='m10'><Expand
+          subtitle="Send Mail" 
+          description="content..."
         /></div>
       </div>
       
-      <div className='row'>
-        <div className='m10'><Expand subtitle="How does a Front End Designer develop?"/></div>
-      </div>
     </div>
   );
 };
