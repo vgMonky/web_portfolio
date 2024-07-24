@@ -2,18 +2,47 @@
     min-height: 600px ;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 60px;
 }
+
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 60px 10px;
+}
+.main-container .t4 {
+    background-color: var(--t4);
+    box-shadow: var(--sh);
+}
+.main-container .t3 {
+    background-color: var(--t3);
+    box-shadow: var(--sh);
+}
+.main-container .t2 {
+    background-color: var(--t2);
+    box-shadow: var(--sh);
+}
+.main-container .t1 {
+    background-color: var(--t1);
+    box-shadow: var(--sh);
+}
+.main-container .t0 {
+    background-color: var(--t0);
+    box-shadow: var(--sh);
+}
+
+.main-container .space{
+    height: 20px;
+}
+
 
 .row {
     border: 1px solid var(--layout-border-color);
     display: flex;
     flex-direction: row;
     gap: 10px;
-}
-
-.space {
-    margin-bottom: 10px;
 }
 
 .m1 {
