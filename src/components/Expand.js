@@ -1,13 +1,17 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { FiChevronDown, FiChevronUp } from 'react-icons/fi'; // Using thinner Feather icons
 import './Expand.css';
 
-const Expand = ({ subtitle, description, children }) => {
-  const [isExpanded, setIsExpanded] = useState(false);
+const Expand = ({ subtitle, description, children, open = false }) => {
+  const [isExpanded, setIsExpanded] = useState(open);
 
   const handleToggle = () => {
     setIsExpanded(!isExpanded);
   };
+
+  useEffect(() => {
+    setIsExpanded(open);
+  }, [open]);
 
   return (
     <div className="expand">

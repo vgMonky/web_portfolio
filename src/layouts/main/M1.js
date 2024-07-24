@@ -91,12 +91,12 @@ const M1 = () => {
           /></div>
         </div>
         <div className='row'>
-          <div className='m10'><Expand subtitle={"Schedule Meeting"} description={""}>
+          <div className='m10'><Expand subtitle={"Schedule Meeting"} description={""} >
             <Schedule/>
           </Expand></div>
         </div>
         <div className='row'>
-          <div className='m10'><Expand subtitle={"Send Email"} description={""}>
+          <div className='m10'><Expand subtitle={"Send Email"} description={""} open={true}>
             <SendMail/>
           </Expand></div>
         </div>

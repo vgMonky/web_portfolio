@@ -5,7 +5,7 @@ const ProfileImg = ({src}) => {
 
   return (
     <div className="profile_image">
-        <img src={src}></img>
+        <img src={src} alt="Profile"></img>
     </div>
   );
 };

@@ -1,0 +1,23 @@
+.schedule {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .react-calendar__tile {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .react-calendar__tile--available {
+    background-color: white !important;
+  }
+  
+  .react-calendar__tile--unavailable {
+    background-color: red !important;
+  }
+  
+  .react-calendar__tile--processing {
+    background-color: yellow !important;
+  }
+  

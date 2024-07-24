@@ -16,7 +16,7 @@ const SendMail = () => {
   return (
     <div className="send_mail">
       <label>
-        Mail Direction:
+        Email:
         <input
           type="email"
           value={email}
@@ -34,7 +34,7 @@ const SendMail = () => {
         />
       </label>
       <label>
-        Mail Text:
+        Message:
         <textarea
           value={message}
           onChange={(e) => setMessage(e.target.value)}
