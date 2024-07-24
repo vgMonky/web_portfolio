@@ -8,28 +8,26 @@
   box-sizing: border-box;
   transition: 0.3s;
 
-  background-color:var(--t0);
+  background-color: var(--t0);
   border: var(--bw) solid var(--tc);
   border-radius: var(--br);
   backdrop-filter: blur(5px); /* Applies the blur effect */
   -webkit-backdrop-filter: blur(5px); /* Safari compatibility */
-
 }
-.expand:hover{
+
+.expand:hover {
   scale: 1.015;
   box-shadow: 0 2px 16px rgba(0, 0, 0, 0.2);
 }
-
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
-
 }
 
-.expand h3{
+.expand h3 {
   color: var(--t2);
 }
 
@@ -38,10 +36,11 @@
   color: var(--t2);
 }
 
-.expand p {
+.expand .description {
   color: var(--t2);
   margin-top: 10px;
 }
 
-
-
+.expand .content {
+  margin-top: 10px;
+}

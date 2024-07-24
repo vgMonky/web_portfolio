@@ -10,6 +10,8 @@ import profile_img from '../../assets/profile.jpg';
 import Slide from '../../components/Slide';
 import ProjectCard from '../../components/ProjectCard';
 import Numbers from '../../components/Numbers';
+import Schedule from '../../components/Schedule';
+import SendMail from '../../components/SendMail';
 
 const M1 = () => {
   return (
@@ -89,10 +91,14 @@ const M1 = () => {
           /></div>
         </div>
         <div className='row'>
-          <div className='m10'><Expand subtitle={"Schedule Meeting"}/></div>
+          <div className='m10'><Expand subtitle={"Schedule Meeting"} description={""}>
+            <Schedule/>
+          </Expand></div>
         </div>
         <div className='row'>
-          <div className='m10'><Expand subtitle={"Send Mail"}/></div>
+          <div className='m10'><Expand subtitle={"Send Email"} description={""}>
+            <SendMail/>
+          </Expand></div>
         </div>
       </div>
 

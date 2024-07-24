@@ -1,0 +1,53 @@
+.send_mail {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto 20px;
+    border-radius: 5px;
+    max-width: 1000px;
+
+  }
+  
+  .send_mail label {
+    display: flex;
+    flex-direction: column;
+    color: var(--t3);
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .send_mail input,
+  .send_mail textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 0px solid var(--t0);
+    border-radius: 3px;
+    background-color: var(--t1);
+    color: white;
+  }
+  
+  .send_mail input::placeholder,
+  .send_mail textarea::placeholder {
+    color: #aaa;
+  }
+  
+  .send_mail textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  .send_mail button {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: var(--t4);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .send_mail button:hover {
+    background-color: var(--t3);
+    color: var(--t0);
+  }
+  
