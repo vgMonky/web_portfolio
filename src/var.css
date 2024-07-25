@@ -21,7 +21,7 @@
     --br: 12px;
 
     /* shadow */
-    --sh: 0 2px 25px rgba(0, 0, 0, 0.15);
+    --sh: 0 0px 45px rgba(0, 0, 0, 0.);
 
     --max-width: 1800px;
     --bar-height: 60px;

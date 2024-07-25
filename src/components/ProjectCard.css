@@ -1,10 +1,10 @@
 .project_card {
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
   height: 100%;
   position: relative;
   overflow: hidden;
+
 }
 
 .project_card img,
@@ -19,6 +19,7 @@
   position: relative;
   z-index: 1;
   transition: opacity 0.3s ease;
+  
 }
 
 .content-overlay {

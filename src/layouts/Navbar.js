@@ -11,7 +11,7 @@ const Navbar = () => {
           <img src="/path/to/logo.png" alt="Logo" />
           <span>Victor Gou.</span>
         </div>
-        <Menu m1={"Profile"} m2={"Contact"} m3={"Settings"}/>
+        <Menu m1={"Home"} m2={"Proyects"} m3={"Contact"}/>
       </div>
     </nav>
   );

@@ -12,6 +12,7 @@
     border-radius: var(--br);
     backdrop-filter: blur(5px); /* Applies the blur effect */
     -webkit-backdrop-filter: blur(5px); /* Safari compatibility */
+    box-shadow: var(--sh);
 }
 
 

@@ -15,7 +15,7 @@ import SendMail from '../../components/SendMail';
 
 const M1 = () => {
   return (
-    <div className="main-container">
+    <div className="main-container" id='home'>
 
       <div className='section'>
         <div className='row'>
@@ -24,7 +24,7 @@ const M1 = () => {
       </div>
 
 
-      <div className='section'>
+      <div className='section' id='profile'>
         <div className='row'>
           <div className='m10'><Logos/></div>
         </div>
@@ -42,7 +42,7 @@ const M1 = () => {
       </div>
 
 
-      <div className='section'>
+      <div className='section' id='projects'>
         <div className='row'>
           <div className='m10'><Title 
           text={"+4 years creating digital products."}
@@ -83,7 +83,7 @@ const M1 = () => {
       </div>
       
 
-      <div className='section'>
+      <div className='section' id='contact'>
         <div className='row'>
           <div className='m10'><Title
           text={"Let’s Connect! "}
@@ -100,6 +100,7 @@ const M1 = () => {
             <SendMail/>
           </Expand></div>
         </div>
+
       </div>
 
     </div>

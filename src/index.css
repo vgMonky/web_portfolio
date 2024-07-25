@@ -5,6 +5,7 @@
   margin: 0;
   font-size: var(--s3);
   font-family: var(--font);
+  scroll-behavior: smooth;
 }
 
 a {
@@ -40,9 +41,6 @@ p{
 }
 
 
-
-
-/* MICRO COMPONENTS: triggers */
 
 .hover {
   transition: 0.4s;

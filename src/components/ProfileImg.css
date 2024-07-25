@@ -8,6 +8,7 @@
     background-color:var(--t1);
     border: var(--bw) solid var(--bc);
     border-radius: var(--br);
+    box-shadow: var(--sh);
   }
   
 .profile_image img {
