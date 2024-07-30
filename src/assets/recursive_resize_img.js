@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const sharp = require('sharp');
 
-const inputDir = './projects'; // Input directory containing projects and images
+const inputDir = './Content'; // Input directory containing projects and images
 const maxWidth = 800; // Maximum width of resized images
 const quality = 100; // Quality level for JPEG images (0-100)
 const pngQuality = 9; // Quality level for PNG images (0-9)

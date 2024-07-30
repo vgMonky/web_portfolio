@@ -59,7 +59,6 @@ const M1 = () => {
         </div>
         <div className='row'>
           <div className='m10'><Slide dir="left">
-            <ProjectCard path="projects/unis" />
             <ProjectCard path="projects/reinventar" />
             <ProjectCard path="projects/scrum_go" />
             <ProjectCard path="projects/skygpu" />
@@ -90,7 +89,7 @@ const M1 = () => {
           text2={"Choose a convenient time or drop a message."}
           /></div>
         </div>
-        <div className='row'>
+                <div className='row'>
           <div className='m10'><Expand subtitle={"Schedule Meeting"} description={""} >
             <Schedule/>
           </Expand></div>
