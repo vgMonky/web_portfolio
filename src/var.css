@@ -33,9 +33,9 @@
 
 @media (max-width: 750px) {
     :root {
-        --s0: 32pt;
-        --s1: 14pt;
-        --s2: 12pt;
+        --s0: 30pt;
+        --s1: 16pt;
+        --s2: 10pt;
         --s3: 10pt;
     }
 }

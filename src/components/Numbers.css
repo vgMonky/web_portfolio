@@ -18,3 +18,9 @@
 .numbers .box{
     width: 190px;
 }
+
+@media (max-width: 750px) {
+    .numbers .box {
+        width: 140px;
+    }
+}

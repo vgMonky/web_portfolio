@@ -36,10 +36,12 @@
 }
 
 
-.project_card:hover .cover-image {
+.project_card:hover .cover-image,
+.project_card:focus .cover-image{
   opacity: 0;
 }
 
-.project_card:hover .content-overlay {
+.project_card:hover .content-overlay,
+.project_card:focus .content-overlay {
   opacity: 1;
 }
