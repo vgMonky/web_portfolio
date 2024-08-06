@@ -10,7 +10,6 @@ import profile_img from '../../assets/profileCenter.jpg';
 import Slide from '../../components/Slide';
 import ProjectCard from '../../components/ProjectCard';
 import Numbers from '../../components/Numbers';
-import Schedule from '../../components/Schedule';
 import SendMail from '../../components/SendMail';
 
 const M1 = () => {
