@@ -6,7 +6,7 @@ import ProfileImg from '../../components/ProfileImg';
 import ProfileCard from '../../components/ProfileCard';
 import Logos from '../../components/Logos';
 import Expand from '../../components/Expand';
-import profile_img from '../../assets/profile.jpg';
+import profile_img from '../../assets/profileCenter.jpg';
 import Slide from '../../components/Slide';
 import ProjectCard from '../../components/ProjectCard';
 import Numbers from '../../components/Numbers';
@@ -29,7 +29,7 @@ const M1 = () => {
           <div className='m10'><Logos/></div>
         </div>
 
-        <div className='row'>
+        <div className='row profile' >
           <div className='m3'><ProfileImg src={profile_img} /></div>
           <div className='m7'>
             <ProfileCard

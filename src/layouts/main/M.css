@@ -44,6 +44,9 @@
     flex-direction: row;
     gap: 10px;
 }
+.main-container .profile{
+    min-height: 350px;
+}
 
 .m1 {
     border: 1px solid var(--layout-border-color);

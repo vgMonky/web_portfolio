@@ -24,9 +24,27 @@
     --sh: 0 0px 45px rgba(0, 0, 0, 0.);
 
     --max-width: 1800px;
-    --bar-height: 60px;
+    --bar-height: 70px;
     --side-margin: 40px;
 
     --layout-border-color: rgba(189, 0, 0, 0);
 
+}
+
+@media (max-width: 750px) {
+    :root {
+        --s0: 32pt;
+        --s1: 14pt;
+        --s2: 12pt;
+        --s3: 10pt;
+    }
+}
+
+@media (min-width: 1400px) {
+    :root {
+        --s0: 42pt;
+        --s1: 20pt;
+        --s2: 15pt;
+        --s3: 12pt;
+    }
 }
