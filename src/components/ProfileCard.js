@@ -23,7 +23,7 @@ const ProfileCard = ({ title, description1, description2}) => {
             <FaEnvelope className="icon hover" />
             </a>
         </div>
-        <a className='hover' href='https://www.ilovepdf.com/es' target="_blank" rel="noopener noreferrer" >{description2}</a>
+        <a className='hover' href='CV.pdf' download rel="noopener noreferrer">{description2}</a>
         
       </div>
     </>
