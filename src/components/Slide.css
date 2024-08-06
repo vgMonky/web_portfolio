@@ -51,7 +51,9 @@
   
 
   .slide-container:hover .slide-track-left,
-  .slide-container:hover .slide-track-right {
+  .slide-container:hover .slide-track-right,
+  .slide-container:active .slide-track-left,
+  .slide-container:active .slide-track-right{
     animation-play-state: paused;
   }
   

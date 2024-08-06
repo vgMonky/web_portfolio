@@ -1,5 +1,7 @@
 .expand {
   width: 100%;
+  max-width: 1000px;
+  margin: auto;
   min-height: 100%;
   display: flex;
   flex-direction: column;

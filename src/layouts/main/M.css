@@ -46,6 +46,7 @@
 }
 .main-container .profile{
     min-height: 350px;
+    
 }
 
 .m1 {
@@ -91,3 +92,9 @@
 
 
 
+@media (max-width: 650px) {
+    .main-container {
+
+        gap: 10px;
+    }
+}

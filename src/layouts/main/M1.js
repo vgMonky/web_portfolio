@@ -86,13 +86,8 @@ const M1 = () => {
         <div className='row'>
           <div className='m10'><Title
           text={"Let’s Connect! "}
-          text2={"Choose a convenient time or drop a message."}
+          text2={"Drop a message and we can arrange a call"}
           /></div>
-        </div>
-                <div className='row'>
-          <div className='m10'><Expand subtitle={"Schedule Meeting"} description={""} >
-            <Schedule/>
-          </Expand></div>
         </div>
         <div className='row'>
           <div className='m10'><Expand subtitle={"Send Email"} description={""} open={true}>
