@@ -89,7 +89,7 @@ const M1 = () => {
           /></div>
         </div>
         <div className='row'>
-          <div className='m10'><Expand subtitle={"Send Email"} description={""} open={true}>
+          <div className='m10'><Expand subtitle={"Send Email"} description={""} open={false}>
             <SendMail/>
           </Expand></div>
         </div>
