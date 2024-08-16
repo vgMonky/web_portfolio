@@ -33,14 +33,21 @@ const ProjectCard = ({ path }) => {
     loadImages();
   }, [path]);
 
+  const handleClick = () => {
+    const imageToOpen = contentSrc || coverSrc;
+    if (imageToOpen) {
+      window.open(imageToOpen, '_blank');
+    }
+  };
+
   return (
-    <div className="project_card">
+    <div className="project_card" onClick={handleClick}>
       {coverSrc && (
         <>
           <img src={coverSrc} alt="cover" className="cover-image" />
-          <div 
+          <div
             className="content-overlay"
-            style={{ 
+            style={{
               backgroundImage: contentSrc ? `url(${contentSrc})` : 'none',
               backgroundColor: !contentSrc ? 'black' : 'transparent'
             }}
