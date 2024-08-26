@@ -45,7 +45,7 @@ const M1 = () => {
         <div className='row'>
           <div className='m10'><Title 
           text={"+4 years creating digital products."}
-          text2={"Expand your bussiness with the power of technology & design."}
+          text2={"Expand your business with the power of technology & design."}
           /></div>
         </div>
         <div className='row'>
@@ -85,13 +85,18 @@ const M1 = () => {
         <div className='row'>
           <div className='m10'><Title
           text={"Let’s Connect! "}
-          text2={"Drop a message and we can arrange a call"}
+          text2={"Drop a message or schedule a meeting"}
           /></div>
         </div>
         <div className='row'>
           <div className='m10'><Expand subtitle={"Send Email"} description={""} open={false}>
             <SendMail/>
           </Expand></div>
+        </div>
+        <div className='row'>
+          <a href='https://calendly.com/victorgou-design/30min' target='blank' className='m10'>
+            <Expand  subtitle={"Schedule a Meeting"} description={"click to open"} open={false}></Expand>
+          </a>
         </div>
 
       </div>
