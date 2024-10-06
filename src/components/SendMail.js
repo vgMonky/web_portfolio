@@ -31,10 +31,10 @@ const SendMail = () => {
         };
         console.log('Sending email with params:', templateParams);
         const result = await emailjs.send(
-          process.env.REACT_APP_EMAILJS_SERVICE_ID,
-          process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+          'service_qo31vus',
+          'template_lhuidep',
           templateParams,
-          process.env.REACT_APP_EMAILJS_USER_ID
+          'wB_vqbUTAHsss2xAP'
         );
         console.log('Email sent successfully:', result.text);
         alert('Your message has been sent successfully!');
